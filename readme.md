@@ -535,3 +535,14 @@ zaman harcayacağız.
 
 Başlangıçta daha basit duruma odaklanalım. Bir sonraki bölümde, işbirlikçisi(collaborators) olmayan basit nesnelerin
 nasıl test edileceğini öğreneceğiz.
+
+# Part II. Writing Unit Tests
+
+Bir test, aşağıda ki durumlarda Unit test değildir!
+
+- Veritabanı ile iletişim kuruyorsa,
+- Ağ üzerinden iletişim kuruyorsa
+- File System'a dokunuyorsa
+- Diğer Unit testlerinizle aynı anda çalışamıyorsa,
+- Çalıştırmak için özel işlemler yapmanız gerekiyorsa (örneğin, configuration dosyalarını düzenlemek),
+
