@@ -41,4 +41,10 @@ class ClientTest {
         assertTrue(client.getAddresses().contains(addressA));
         assertTrue(client.getAddresses().contains(addressB));
     }
+
+    @Test
+    void shouldClientSetAge(){
+        client.setAge(20);
+        assertEquals(20,client.getAge());
+    }
 }
