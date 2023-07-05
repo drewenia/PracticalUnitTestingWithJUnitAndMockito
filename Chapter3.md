@@ -119,7 +119,9 @@ message alır (bkz. Bölüm 3.5). Diğerleri - örneğin, assertEquals() ve asse
 message alır. Böyle bir durumda, parametrelerin sırası aşağıdaki gibidir:
 
 1 - (optional) message
+
 2 - expected value
+
 3 - actual value
 
 İlk iki parametrenin sırasının ne fark yarattığını sorabilirsiniz. A'yı B'ye karşılaştırmak ile B'yi A'ya karşılaştırmak

@@ -1006,7 +1006,9 @@ Testi çalıştırıyorum ve hemen fail'i alıyorum. Çünkü removeSubscriber m
 
 1 - Bu kod satırından sonra clientA'nın mesaj almaya başlaması gerektiğini biliyoruz. Bu bilgimiz, bu davranışı
 doğrulayan diğer testlere (yani subscribedClientShouldReceiveMessage()) dayanmaktadır.
+
 2 - Ancak removeSubscriber() methodunun bu davranışı değiştirmesini istiyoruz
+
 3- ...bu nedenle clientA hiçbir mesaj almayacak. Yine, bu "negatif" doğrulama never() yöntemi kullanılarak yapılır.
 
 RaceResultService class'ımda eksik olan methodu yerine yerleştiriyorum;
@@ -1198,6 +1200,7 @@ public class ClientTest {
 ```
 
 1 - 2 - Gerçek nesneler SUT tarafından kullanılmak üzere oluşturulur.
+
 3 - 4 - Her iki test methodu da Phone sınıfının gerçek nesnelerini kullanır ve her ikisi de doğruluğuna güvenir.
 
 gösterilen test kodu açık ve özeldir. İlgili boolean parametreyle bir Phone sınıfı constructor'ı kullanılarak gereken
