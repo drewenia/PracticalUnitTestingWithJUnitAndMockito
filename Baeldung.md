@@ -790,3 +790,5 @@ Bu koddaki önemli noktalar:
 
 - mockStatic() methodunu kullanarak CacheManager sınıfının mocked bir versiyonunu oluşturduk.
 - Ardından, getInstance() methodunu mocked yaptıktan sonra mocked CacheManager instance'imizi döndürdük.
+
+

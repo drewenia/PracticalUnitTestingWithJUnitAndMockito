@@ -2,7 +2,6 @@ package ch06;
 
 import org.junit.jupiter.api.Test;
 
-import static org.hamcrest.Matchers.hasEntry;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.Mockito.*;

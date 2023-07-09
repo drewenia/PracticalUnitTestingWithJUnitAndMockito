@@ -18,7 +18,6 @@ dependencies {
     testImplementation("org.mockito:mockito-core:5.4.0")
     testImplementation("org.springframework:spring-test:6.0.10")
     testImplementation("org.mockito:mockito-inline:5.2.0")
-    testImplementation ("org.hamcrest:hamcrest:2.2")
     implementation ("org.apache.commons:commons-lang3:3.12.0")
 }
 
