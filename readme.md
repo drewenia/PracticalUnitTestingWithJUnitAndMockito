@@ -19,7 +19,3 @@
 [Chapter 10](Chapter10.md)
 
 [Chapter 11](Chapter11.md)
-
-# Baeldung Examples
-
-[Baeldung TDD Examples](Baeldung.md)
